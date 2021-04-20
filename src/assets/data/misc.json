@@ -1,0 +1,78 @@
+{
+	"phone": {
+		"phMobile": "(63) 9229-336043/094",
+		"phLandline": "(+63) 44 8150285",
+		"phName": "Maria Teresa",
+		"sgMobile": "(+65) 9824 1014",
+		"sgName": "Thomas Wee"
+	},
+	"email": {
+		"ph": "willingheartsorphanage@yahoo.com.ph",
+		"sg": "thomas@willingheartsorphanage.org"
+	},
+	"location": {
+		"sg": {
+			"name": "St. Isidore Centre",
+			"address": "Block 120 Potong Pasir Ave 1, #01-822, Singapore 350120"
+		},
+		"ph": {
+			"name": "Brgy. Lalakhan",
+			"address": "Sta Maria Bulacan, Philippines 3022"
+		}
+	},
+	"bankDetails": {
+		"sg": {
+			"name": "St. Isidore Centre",
+			"bankName": "DBS",
+			"branchName": null,
+			"accountNumber": "023-904-7262"
+		},
+		"ph": {
+			"name": "Willing Hearts Orphanage Inc",
+			"bankName": "METROBANK",
+			"branchName": "STA MARIA BAGBAGUIN BRANCH",
+			"accountNumber": "541-3-54108177-2"
+		}
+	},
+	"donation": {
+		"donate": {
+			"title": "DONATE",
+			"subtitle": null,
+			"icon": "fa-gift",
+			"shortDescription": "Help us keep the orphanage up and running by contributing to our operational needs",
+			"description": null		
+		},
+		"education": {
+			"title": "GIFT AN EDUCATION",
+			"subtitle": null,
+			"icon": "fa-key",
+			"shortDescription": "Give our kids the chance to continue their education, by sponsoring their school fees",
+			"description": null		
+		},
+		"freight": {
+			"title": "SPONSOR FREIGHT",
+			"subtitle": null,
+			"icon": "fa-key",
+			"shortDescription": "Send our kids donated clothes, shoes and other essential items from Singapore",
+			"description": null		
+		}
+	},	
+	"story": {
+		"footerAbout": {
+			"title": "ABOUT WILLING HEARTS ORPHANAGE",
+			"subtitle": null,
+			"description": "We are a non-stock/non-profit organisation based in Bulacan, Philippines, set up by two friends with a shared goal to do good. Filipina Maria Teresa and her former employer in Singapore, Thomas Wee, opened the shelter for boys and girls in 2008. Today it welcomes kids aged four to 12 years old, of whom, many have been referred to us by the local authorities."
+		},
+		"bulacan": {
+			"title": "HELLO FROM BULACAN, PHILIPPINES",
+			"subtitle": null,
+			"description": "Willing Hearts Orphanage was started in 2008 by two friends, who were once employee and employer. Maria Teresa from the Philippines and Thomas Wee from Singapore share a passion to do good. And today, their orphanage is home to more than 30 boys and girls, who have lost their parents, lived on the streets, or been abandoned. They receive shelter, nourishment, security, love and an education. You can help turn their lives around too."
+		},
+		"about": {
+			"title": "About",
+			"subtitle": null,
+			"description": "Willing Hearts Orphanage INC is a 100% non-stock/non-profit organisation based in the Philippines that works closely with the Philippine Department of Social Welfare & Development (DSWD Reg. No. 111RL-0008-2014)."
+		}
+	},
+	"phRregNumber": "111RL-0008-2014"
+}
