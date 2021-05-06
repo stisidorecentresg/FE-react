@@ -55,8 +55,15 @@ const Gallery = () => {
         <p>Please click the link for more information and article about St Isidore Centre:</p>
           
         <ul>
+          <li><a href="https://www.asiaone.com/print/News/Latest%2BNews/Singapore/Story/A1Story20121224-391323.html" target="_blank">From illegal bookie to orphans' hero</a></li>
+          <li><a href="https://www.mewatch.sg/watch/A-Singaporean-Abroad-S2-E2-Thomas-Wee-35651" target="_blank">A Singaporean Abroad S2 E2 Thomas Wee</a></li>
+          <li><a href="https://live.mewatch.sg/watch/Life-Extraordinaire-E9-51487" target="_blank">Life Extraordinaire E9</a></li>
+          <li><a href="http://freecycle-community.blogspot.com/2020/08/sgfreecycle-thrift-shop-st-isidore.html?m=1" target="_blank">SgFreeCycle thrift shop St Isidore</a></li>
           <li><a href="https://www.facebook.com/TheRoyalSingapore/photos/this-local-thrift-shop-was-overwhelmed-with-donations-after-local-celebrity-quan/3435366413175168/" target="_blank">TheRoyalSingapore Facebook</a></li>
           <li><a href="https://images.app.goo.gl/9cC79YMBSy62qbnX8" target="_blank">Carouselling to help an orphanage</a></li>
+          <li><a href="https://carousell.app.link/x9IbulKmBdb" target="_blank">Carousell - Meal for Charity - Heritage Food from Singapore’s Past</a></li>
+          <li><a href="https://www.youtube.com/watch?v=gisJwfvKRhk" target="_blank">Asrama Putri Santa Maria Goretti @ Tanjung Pinang</a></li>
+          <li><a href="https://www.youtube.com/watch?v=bfSdVPQNjuY" target="_blank">Children Stage Performance At The Restaurantヾ(๑╹◡╹)ﾉ" Jingle Bells 3</a></li>
         </ul> 
       </div>
     </div>

@@ -5,11 +5,12 @@ import '../App.css'
 import g from '../assets/image/goretti.png'
 import i1 from '../assets/image/isidore1.png'
 import y1 from '../assets/image/YFMG1.jpeg'
+import main1 from '../assets/image/main1.png'
 
 const AboutCarousel = () => {
   const aboutData = [
     {
-      image: i1,
+      image: main1,
       title: "St. Isidore Centre",
       description: "Is a non-profit organization founded by Thomas Wee, who named it after the saint called ISIDORE. Saint Isidore (c. 1070 - 15 May 1130) was a Spanish day labourer known for his goodness toward the poor and animal."
     },
