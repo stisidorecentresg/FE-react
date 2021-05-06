@@ -5,7 +5,7 @@ import '../App.css'
 import g from '../assets/image/goretti.png'
 import i1 from '../assets/image/isidore1.png'
 import y1 from '../assets/image/YFMG1.jpeg'
-import main1 from '../assets/image/main1.png'
+import main1 from '../assets/image/home1.png'
 
 const AboutCarousel = () => {
   const aboutData = [

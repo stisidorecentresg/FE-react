@@ -51,10 +51,10 @@ const Gallery = () => {
 
       <br/>
       
-      <div>
+      <div style={{ textAlign: "justify" }}>
         <p>Please click the link for more information and article about St Isidore Centre:</p>
           
-        <ul>
+        <ul style={{ marginLeft: "-20px" }}>
           <li><a href="https://www.asiaone.com/print/News/Latest%2BNews/Singapore/Story/A1Story20121224-391323.html" target="_blank">From illegal bookie to orphans' hero</a></li>
           <li><a href="https://www.mewatch.sg/watch/A-Singaporean-Abroad-S2-E2-Thomas-Wee-35651" target="_blank">A Singaporean Abroad S2 E2 Thomas Wee</a></li>
           <li><a href="https://live.mewatch.sg/watch/Life-Extraordinaire-E9-51487" target="_blank">Life Extraordinaire E9</a></li>

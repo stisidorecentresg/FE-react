@@ -53,7 +53,7 @@ const AboutUs = () => {
           <div style={{ textAlign: "justify"}}>
             <p>{ nameSG } is a non-profit organization founded by Thomas Wee, who named it after the saint called ISIDORE. Saint Isidore (c. 1070 - 15 May 1130) was a Spanish day labourer known for his goodness toward the poor and animal. { nameSG } is part of <a href="http://willingheartsorphanage.org/" target="_blank">Willing Hearts Orphanage</a>, Bulacan, Philippines.</p>        
 
-            <p>With dedication and compassion, St. Isidore collaborated with <a href="http://www.yayasanfelixmaria.com/" target="_blank">Yayasan Felix Maria Go</a> to improve life of the needy, especially to Tanjung Pinang Asrama Putri Maria Goretti, Timor Island and other parts of Indonesia.</p>
+            <p>With dedication and compassion, St. Isidore collaborated with <a href="http://www.yayasanfelixmaria.com/" target="_blank">Yayasan Felix Maria Go</a> to improve life of the needy especially in Timor Island and other parts of Indonesia.</p>
 
             {/* <p>Please click the link for more information and article about St Isidore Centre:</p>
             
