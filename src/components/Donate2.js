@@ -5,11 +5,11 @@ import { MdPhoneAndroid, MdMailOutline } from 'react-icons/md'
 const Donate = () => {
   const pageTitle= "Donation"
   const nameSG = "St. Isidore Centre"
-  const addressSG = "Block 120 Potong Pasir Ave 1, #01-822, Singapore 350120"
+  const addressSG = "Block 120 Potong Pasir Ave 1, #01-822, Singapore 350120, (Opposite Block 113)"
   const addressSGArray = addressSG.split(', ')
   const bankSGArray = [
     "DBS Bank Acct No: 023-904-7262",
-    "Acct Name: St. Isidore Centre"
+    "Acct Name: St Isidore Centre"
   ]
   const YFMGArray = [
     "POSB Bank Acct No: 186-68463-0",
@@ -34,32 +34,34 @@ const Donate = () => {
   ]
   const destinationArray = [
     {
-      title: "Asrama Putri Santa Maria Goretti, Riau, Indonesia.",
+      title: "Asrama Putri Santa Maria Goretti, Riau, Indonesia",
       url: null
     },
     {
-      title: "Willing Heart Orphanage, Bulacan, Philippines.",
+      title: "Willing Heart Orphanage, Bulacan, Philippines",
       url: "http://willingheartsorphanage.org/"
     },
-    
-    // "Yayasan Felix Maria Go, NTT, Indonesia.",
-    
+    {
+      title: "Yayasan Felix Maria Go ( Timor Island and other part of Indonesia )",
+      url: "http://yayasanfelixmaria.com/"
+    }  
   ]
   
   return (
-    <div className="bg-jumbotron" id="donate2" style={{ textAlign: "center", borderRadius: "5px", marginBottom: "2rem" }}>
-      {/* <div><h3>Donate</h3></div> */}
+    <div className="bg-jumbotron" id="donate2" style={{ textAlign: "center", borderRadius: "5px", marginBottom: "2rem" }}>      
+
       <div style={{ padding: "2rem" }} >
+        <div className="align-center">
+          <div><h3><b>{ pageTitle }</b></h3></div>
+        </div>
+
         <img src={ i4 } alt="" style={{ width: "100%" }} />
       </div>
 
-      <div className="align-center">
-        <div><h3><b>{ pageTitle }</b></h3></div>
-      </div>
-
-      <div style={{ textAlign: "left", padding: "0rem 4rem"}}>
+      <div style={{ textAlign: "justify", padding: "0rem 2rem" }}>
         <p>The pre-loved items you clear from your home will be much appreciated by us. These include, clothes, shoes, bags, toys, books, kitchen-ware, household-ware, and electrical appliances. Please ensure they are in good and usable quality, as we do not have the means to dispose of unwanted items for you. Thank you for your understanding.</p>
-        <p>Sales and donation will go towards running the orphanages:</p>
+        <p>Other than accepting donation, We  also have quite handful of  clothing collections contains of many famous designer brands, preloved branded handbags for Ladies, unique and  vintage   stuff   for display, household and electronic  items, books  etc  in our St. ISIDORE thrift Store FOR  SALE. Feel free to visit us anytime🙏</p>
+        <p>Sales and donation will go to support:</p>
         <ul>
           { destinationArray.map((arr) => {
             if ( arr.url ) {
@@ -69,21 +71,17 @@ const Donate = () => {
             }
           }) }
         </ul>
-        <p>which includes giving our children the education and nourishment they need.</p>
+        <p>Which includes giving our children the education and nourishment they need and helping the family with their basic needs.</p>
       </div>
 
       <br/>
 
       <div className="row">     
-        <div className="col-sm" >
+        <div className="col-sm mb-4"  >
           <h4><u>Donate</u></h4>
           <div style={{ }}>
             <h5 className="text-maroon">Bank Transfer to</h5>
             { bankSGArray.map((arr) => (
-              <h6 className="text-grey">{ arr }</h6>
-            )) }
-            <h5 className="text-maroon">Or</h5>
-            { YFMGArray.map((arr) => (
               <h6 className="text-grey">{ arr }</h6>
             )) }
             <h5 className="text-maroon">Or can PayLah! to</h5>
@@ -109,10 +107,8 @@ const Donate = () => {
       </div>
 
       <br/>
-      <br/>
-      <br/>
               
-      <div><h4><u>Contact Us</u></h4></div>
+      <div><h4><u>Contact Person</u></h4></div>
       <div className="text-maroon"><h5>{ contactNameSG }</h5></div>
       <div className="text-grey"><h6><MdPhoneAndroid />: { contactMobileSG }</h6></div>
       <div className="text-grey"><h6><MdMailOutline />: { contactEmailSG }</h6></div>

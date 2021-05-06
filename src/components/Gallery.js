@@ -3,72 +3,35 @@ import React from 'react'
 import ImageGallery from 'react-image-gallery';
 import 'react-image-gallery/styles/css/image-gallery.css';
 
-var g0 = require('../assets/gallery/WhatsApp Image 2021-04-10 at 08.49.27 (1).jpeg').default
-var t0 = require('../assets/gallery/thumbnail/WhatsApp Image 2021-04-10 at 08.49.27 (1).jpeg').default
-var g1 = require('../assets/gallery/WhatsApp Image 2021-04-10 at 08.49.27.jpeg').default
-var t1 = require('../assets/gallery/thumbnail/WhatsApp Image 2021-04-10 at 08.49.27.jpeg').default
-var g2 = require('../assets/gallery/WhatsApp Image 2021-04-10 at 08.49.28 (1).jpeg').default
-var t2 = require('../assets/gallery/thumbnail/WhatsApp Image 2021-04-10 at 08.49.28 (1).jpeg').default
-var g3 = require('../assets/gallery/WhatsApp Image 2021-04-10 at 08.49.28 (2).jpeg').default
-var t3 = require('../assets/gallery/thumbnail/WhatsApp Image 2021-04-10 at 08.49.28 (2).jpeg').default
-var g4 = require('../assets/gallery/WhatsApp Image 2021-04-10 at 08.49.28.jpeg').default
-var t4 = require('../assets/gallery/thumbnail/WhatsApp Image 2021-04-10 at 08.49.28.jpeg').default
-var g5 = require('../assets/gallery/WhatsApp Image 2021-04-10 at 08.49.29 (1).jpeg').default
-var t5 = require('../assets/gallery/thumbnail/WhatsApp Image 2021-04-10 at 08.49.29 (1).jpeg').default
-var g6 = require('../assets/gallery/WhatsApp Image 2021-04-10 at 08.49.29 (2).jpeg').default
-var t6 = require('../assets/gallery/thumbnail/WhatsApp Image 2021-04-10 at 08.49.29 (2).jpeg').default
-var g7 = require('../assets/gallery/WhatsApp Image 2021-04-10 at 08.49.29 (3).jpeg').default
-var t7 = require('../assets/gallery/thumbnail/WhatsApp Image 2021-04-10 at 08.49.29 (3).jpeg').default
-var g8 = require('../assets/gallery/WhatsApp Image 2021-04-10 at 08.49.29.jpeg').default
-var t8 = require('../assets/gallery/thumbnail/WhatsApp Image 2021-04-10 at 08.49.29.jpeg').default
-var g9 = require('../assets/gallery/WhatsApp Image 2021-04-10 at 08.49.30 (1).jpeg').default
-var t9 = require('../assets/gallery/thumbnail/WhatsApp Image 2021-04-10 at 08.49.30 (1).jpeg').default
-var g10 = require('../assets/gallery/WhatsApp Image 2021-04-10 at 08.49.30 (2).jpeg').default
-var t10 = require('../assets/gallery/thumbnail/WhatsApp Image 2021-04-10 at 08.49.30 (2).jpeg').default
-var g11 = require('../assets/gallery/WhatsApp Image 2021-04-10 at 08.49.30.jpeg').default
-var t11 = require('../assets/gallery/thumbnail/WhatsApp Image 2021-04-10 at 08.49.30.jpeg').default
+var g0 = require('../assets/gallery/1.jpeg').default
+var t0 = require('../assets/gallery/thumbnail/1.jpeg').default
+var g1 = require('../assets/gallery/2.jpeg').default
+var t1 = require('../assets/gallery/thumbnail/2.jpeg').default
+var g2 = require('../assets/gallery/3.jpeg').default
+var t2 = require('../assets/gallery/thumbnail/3.jpeg').default
+var g3 = require('../assets/gallery/4.jpeg').default
+var t3 = require('../assets/gallery/thumbnail/4.jpeg').default
+var g4 = require('../assets/gallery/5.jpeg').default
+var t4 = require('../assets/gallery/thumbnail/5.jpeg').default
+var g5 = require('../assets/gallery/6.jpeg').default
+var t5 = require('../assets/gallery/thumbnail/6.jpeg').default
+var g6 = require('../assets/gallery/7.jpeg').default
+var t6 = require('../assets/gallery/thumbnail/7.jpeg').default
 
-var g12 = require('../assets/gallery/WhatsApp Image 2021-04-10 at 08.49.31 (1).jpeg').default
-var t12 = require('../assets/gallery/thumbnail/WhatsApp Image 2021-04-10 at 08.49.31 (1).jpeg').default
-var g13 = require('../assets/gallery/WhatsApp Image 2021-04-10 at 08.49.31 (2).jpeg').default
-var t13 = require('../assets/gallery/thumbnail/WhatsApp Image 2021-04-10 at 08.49.31 (2).jpeg').default
-var g14 = require('../assets/gallery/WhatsApp Image 2021-04-10 at 08.49.31 (3).jpeg').default
-var t14 = require('../assets/gallery/thumbnail/WhatsApp Image 2021-04-10 at 08.49.31 (3).jpeg').default
-var g15 = require('../assets/gallery/WhatsApp Image 2021-04-10 at 08.49.31.jpeg').default
-var t15 = require('../assets/gallery/thumbnail/WhatsApp Image 2021-04-10 at 08.49.31.jpeg').default
+var g7 = require('../assets/gallery/8.jpeg').default
+var t7 = require('../assets/gallery/thumbnail/8.jpeg').default
+var g8 = require('../assets/gallery/9.jpeg').default
+var t8 = require('../assets/gallery/thumbnail/9.jpeg').default
 
-
-var g16 = require('../assets/gallery/WhatsApp Image 2021-04-10 at 08.49.32 (1).jpeg').default
-var t16 = require('../assets/gallery/thumbnail/WhatsApp Image 2021-04-10 at 08.49.32 (1).jpeg').default
-var g17 = require('../assets/gallery/WhatsApp Image 2021-04-10 at 08.49.32 (2).jpeg').default
-var t17 = require('../assets/gallery/thumbnail/WhatsApp Image 2021-04-10 at 08.49.32 (2).jpeg').default
-var g18 = require('../assets/gallery/WhatsApp Image 2021-04-10 at 08.49.32 (3).jpeg').default
-var t18 = require('../assets/gallery/thumbnail/WhatsApp Image 2021-04-10 at 08.49.32 (3).jpeg').default
-var g19 = require('../assets/gallery/WhatsApp Image 2021-04-10 at 08.49.32.jpeg').default
-var t19 = require('../assets/gallery/thumbnail/WhatsApp Image 2021-04-10 at 08.49.32.jpeg').default
-
-var g20 = require('../assets/gallery/WhatsApp Image 2021-04-10 at 08.49.33 (1).jpeg').default
-var t20 = require('../assets/gallery/thumbnail/WhatsApp Image 2021-04-10 at 08.49.33 (1).jpeg').default
-var g21 = require('../assets/gallery/WhatsApp Image 2021-04-10 at 08.49.33 (2).jpeg').default
-var t21 = require('../assets/gallery/thumbnail/WhatsApp Image 2021-04-10 at 08.49.33 (2).jpeg').default
-var g22 = require('../assets/gallery/WhatsApp Image 2021-04-10 at 08.49.33.jpeg').default
-var t22 = require('../assets/gallery/thumbnail/WhatsApp Image 2021-04-10 at 08.49.33.jpeg').default
-
-var g23 = require('../assets/gallery/WhatsApp Image 2021-04-15 at 20.10.09.jpeg').default
-var t23 = require('../assets/gallery/thumbnail/WhatsApp Image 2021-04-15 at 20.10.09.jpeg').default
-var g24 = require('../assets/gallery/WhatsApp Image 2021-04-15 at 20.10.10 (1).jpeg').default
-var t24 = require('../assets/gallery/thumbnail/WhatsApp Image 2021-04-15 at 20.10.10 (1).jpeg').default
-var g25 = require('../assets/gallery/WhatsApp Image 2021-04-15 at 20.10.10 (2).jpeg').default
-var t25 = require('../assets/gallery/thumbnail/WhatsApp Image 2021-04-15 at 20.10.10 (2).jpeg').default
-var g26 = require('../assets/gallery/WhatsApp Image 2021-04-15 at 20.10.10 (3).jpeg').default
-var t26 = require('../assets/gallery/thumbnail/WhatsApp Image 2021-04-15 at 20.10.10 (3).jpeg').default
-var g27 = require('../assets/gallery/WhatsApp Image 2021-04-15 at 20.10.10.jpeg').default
-var t27 = require('../assets/gallery/thumbnail/WhatsApp Image 2021-04-15 at 20.10.10.jpeg').default
+var g9 = require('../assets/gallery/10.jpeg').default
+var t9 = require('../assets/gallery/thumbnail/10.jpeg').default
+var g10 = require('../assets/gallery/11.jpeg').default
+var t10 = require('../assets/gallery/thumbnail/11.jpeg').default
 
 const Gallery = () => {
   const pageTitle = "Gallery"
   var images = [];
-  for (let index = 0; index < 27; index++) {
+  for (let index = 0; index <= 10; index++) {
     images.push({
       original: eval('g'+index),
       thumbnail: eval('t'+index)
@@ -85,6 +48,17 @@ const Gallery = () => {
         showFullscreenButton={ false } 
         showPlayButton={ false } 
       />
+
+      <br/>
+      
+      <div>
+        <p>Please click the link for more information and article about St Isidore Centre:</p>
+          
+        <ul>
+          <li><a href="https://www.facebook.com/TheRoyalSingapore/photos/this-local-thrift-shop-was-overwhelmed-with-donations-after-local-celebrity-quan/3435366413175168/" target="_blank">TheRoyalSingapore Facebook</a></li>
+          <li><a href="https://images.app.goo.gl/9cC79YMBSy62qbnX8" target="_blank">Carouselling to help an orphanage</a></li>
+        </ul> 
+      </div>
     </div>
   )
 }

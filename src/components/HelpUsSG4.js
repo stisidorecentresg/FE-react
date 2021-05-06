@@ -1,7 +1,9 @@
 import '../App.css'
 import { Row, Col } from 'react-bootstrap'
-import { GiPayMoney, GiCook } from 'react-icons/gi'
+import { GiPayMoney, GiCook, GiFoodTruck } from 'react-icons/gi'
 import { MdLocalDining } from 'react-icons/md'
+import { IoMdBoat } from 'react-icons/io'
+import { FaHandHoldingHeart } from 'react-icons/fa'
 
 
 const HelpUsSG = () => {
@@ -32,7 +34,7 @@ const HelpUsSG = () => {
 
       <div className="row">
         <div className="col-sm align-center" >
-          <GiPayMoney size={ 70 } color={ "Grey" } onClick={ clickDonate }/>
+          <FaHandHoldingHeart size={ 70 } color={ "Grey" } onClick={ clickDonate }/>
           <div style={{ marginTop: "15px" }}><h5>DONATION</h5></div>
         </div>
         <div className="col-sm align-center" >
@@ -40,8 +42,16 @@ const HelpUsSG = () => {
           <div style={{ marginTop: "15px" }}><h5>DINING</h5></div>  
         </div>
         <div className="col-sm align-center" >
+          <GiFoodTruck size={ 70 } color={ "Grey" } onClick={ clickDelivery }/>
+          <div style={{ marginTop: "15px" }}><h5>FOOD DELIVERY</h5></div>
+        </div>
+        <div className="col-sm align-center" >
           <GiCook size={ 70 } color={ "Grey" } onClick={ clickCooking }/>
           <div style={{ marginTop: "15px" }}><h5>COOKING CLASS</h5></div>
+        </div>
+        <div className="col-sm align-center" >
+          <IoMdBoat size={ 70 } color={ "Grey" } onClick={ clickOutreach }/>
+          <div style={{ marginTop: "15px" }}><h5>OUTREACH PROGRAM</h5></div>
         </div>
       </div>
 
@@ -61,8 +71,20 @@ function clickDining() {
   window.scrollTo(0, testDivOffset)
 }
 
+function clickDelivery() {
+  var testDiv = document.getElementById("delivery");
+  var testDivOffset = testDiv.offsetTop;
+  window.scrollTo(0, testDivOffset)
+}
+
 function clickCooking() {
   var testDiv = document.getElementById("cooking");
+  var testDivOffset = testDiv.offsetTop;
+  window.scrollTo(0, testDivOffset)
+}
+
+function clickOutreach() {
+  var testDiv = document.getElementById("outreach");
   var testDivOffset = testDiv.offsetTop;
   window.scrollTo(0, testDivOffset)
 }

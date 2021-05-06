@@ -39,6 +39,7 @@ const Footer = () => {
             <div className="text-white"><MdPhoneAndroid />: { contactMobileSG }</div>
             <div className="text-white"><MdMailOutline />: { contactEmailSG }</div>
             <div className="text-white"><MdHome />: { addressSG }</div>
+            <div className="text-white">(Opposite Block 113) </div>
           </div>
           <div className="col-sm-5">
             <div className="text-white"><u>Operating Hours</u></div>
