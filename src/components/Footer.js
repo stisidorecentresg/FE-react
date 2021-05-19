@@ -33,7 +33,7 @@ const Footer = () => {
       
       <div className="bg-dark text-white align-left pt-3 pb-2 pl-4 pr-4 mt-1" style={{ borderRadius: "5px" }}>
         <div className="row"> 
-          <div className="col-sm-7">
+          <div className="col-sm-7" style={{ marginBottom: "15px" }}>
             <div><u>Contact Us</u></div>
             <div className="text-white">{ contactNameSG }</div>
             <div className="text-white"><MdPhoneAndroid />: { contactMobileSG }</div>

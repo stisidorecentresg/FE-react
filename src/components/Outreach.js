@@ -1,6 +1,9 @@
 import '../App.css'
 import { Jumbotron, Container } from 'react-bootstrap';
 
+import b1 from '../assets/image/b1.jpeg'
+
+
 const Outreach = () => {
   const pageTitle = "Outreach Program"
   const desc = 'When the border between the countries are open, you can join our "OUTREACH PROGRAM" as follows :'
@@ -66,6 +69,10 @@ const Outreach = () => {
           </div>
         </div>
       </div>
+
+      <br/>
+
+      <img src={ b1 } style={{ width: "100%", borderRadius: "5px" }}/>
 
     </Jumbotron>
   )

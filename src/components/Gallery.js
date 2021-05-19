@@ -3,35 +3,54 @@ import React from 'react'
 import ImageGallery from 'react-image-gallery';
 import 'react-image-gallery/styles/css/image-gallery.css';
 
-var g0 = require('../assets/gallery/1.jpeg').default
-var t0 = require('../assets/gallery/thumbnail/1.jpeg').default
-var g1 = require('../assets/gallery/2.jpeg').default
-var t1 = require('../assets/gallery/thumbnail/2.jpeg').default
-var g2 = require('../assets/gallery/3.jpeg').default
-var t2 = require('../assets/gallery/thumbnail/3.jpeg').default
-var g3 = require('../assets/gallery/4.jpeg').default
-var t3 = require('../assets/gallery/thumbnail/4.jpeg').default
-var g4 = require('../assets/gallery/5.jpeg').default
-var t4 = require('../assets/gallery/thumbnail/5.jpeg').default
-var g5 = require('../assets/gallery/6.jpeg').default
-var t5 = require('../assets/gallery/thumbnail/6.jpeg').default
-var g6 = require('../assets/gallery/7.jpeg').default
-var t6 = require('../assets/gallery/thumbnail/7.jpeg').default
+var g0 = require('../assets/gallery/a5.jpeg').default
+var t0 = require('../assets/gallery/thumbnail/a5.jpeg').default
+var g1 = require('../assets/gallery/1.jpeg').default
+var t1 = require('../assets/gallery/thumbnail/1.jpeg').default
 
-var g7 = require('../assets/gallery/8.jpeg').default
-var t7 = require('../assets/gallery/thumbnail/8.jpeg').default
-var g8 = require('../assets/gallery/9.jpeg').default
-var t8 = require('../assets/gallery/thumbnail/9.jpeg').default
+var g2 = require('../assets/gallery/a6.jpeg').default
+var t2 = require('../assets/gallery/thumbnail/a6.jpeg').default
+var g3 = require('../assets/gallery/a7.jpeg').default
+var t3 = require('../assets/gallery/thumbnail/a7.jpeg').default
 
-var g9 = require('../assets/gallery/10.jpeg').default
-var t9 = require('../assets/gallery/thumbnail/10.jpeg').default
-var g10 = require('../assets/gallery/11.jpeg').default
-var t10 = require('../assets/gallery/thumbnail/11.jpeg').default
+var g4 = require('../assets/gallery/2.jpeg').default
+var t4 = require('../assets/gallery/thumbnail/2.jpeg').default
+
+var g5 = require('../assets/gallery/a1.jpeg').default
+var t5 = require('../assets/gallery/thumbnail/a1.jpeg').default
+var g6 = require('../assets/gallery/a2.jpeg').default
+var t6 = require('../assets/gallery/thumbnail/a2.jpeg').default
+var g7 = require('../assets/gallery/a3.jpeg').default
+var t7 = require('../assets/gallery/thumbnail/a3.jpeg').default
+var g8 = require('../assets/gallery/a4.jpeg').default
+var t8 = require('../assets/gallery/thumbnail/a4.jpeg').default
+
+
+var g9 = require('../assets/gallery/3.jpeg').default
+var t9 = require('../assets/gallery/thumbnail/3.jpeg').default
+var g10 = require('../assets/gallery/4.jpeg').default
+var t10 = require('../assets/gallery/thumbnail/4.jpeg').default
+var g11 = require('../assets/gallery/5.jpeg').default
+var t11 = require('../assets/gallery/thumbnail/5.jpeg').default
+var g12 = require('../assets/gallery/6.jpeg').default
+var t12 = require('../assets/gallery/thumbnail/6.jpeg').default
+var g13 = require('../assets/gallery/7.jpeg').default
+var t13 = require('../assets/gallery/thumbnail/7.jpeg').default
+
+var g14 = require('../assets/gallery/8.jpeg').default
+var t14 = require('../assets/gallery/thumbnail/8.jpeg').default
+var g15 = require('../assets/gallery/9.jpeg').default
+var t15 = require('../assets/gallery/thumbnail/9.jpeg').default
+
+var g16 = require('../assets/gallery/10.jpeg').default
+var t16 = require('../assets/gallery/thumbnail/10.jpeg').default
+var g17 = require('../assets/gallery/11.jpeg').default
+var t17 = require('../assets/gallery/thumbnail/11.jpeg').default
 
 const Gallery = () => {
   const pageTitle = "Gallery"
   var images = [];
-  for (let index = 0; index <= 10; index++) {
+  for (let index = 0; index <= 17; index++) {
     images.push({
       original: eval('g'+index),
       thumbnail: eval('t'+index)

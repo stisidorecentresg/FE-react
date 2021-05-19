@@ -11,6 +11,10 @@ const Donate = () => {
     "DBS Bank Acct No: 023-904-7262",
     "Acct Name: St Isidore Centre"
   ]
+  const paynowSGArray = [
+    "Name: St Isidore Centre",
+    "UEN No: 53218915M"
+  ]
   const YFMGArray = [
     "POSB Bank Acct No: 186-68463-0",
     "Acct Name: Marcel Go (Yayasan Felix Maria Go)"
@@ -94,6 +98,10 @@ const Donate = () => {
             )) }
             <h5 className="text-maroon">Or can PayLah! to</h5>
             <h6 className="text-grey">{ contactNameSG } { contactMobileSG }</h6>
+            <h5 className="text-maroon">Or can Paynow to</h5>
+            { paynowSGArray.map((arr) => (
+              <h6 className="text-grey">{ arr }</h6>
+            )) }
           </div>
         </div>
 

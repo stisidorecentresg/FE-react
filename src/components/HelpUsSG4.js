@@ -39,7 +39,7 @@ const HelpUsSG = () => {
         </div>
         <div className="col-sm align-center" >
           <MdLocalDining size={ 70 } color={ "Grey" } onClick={ clickDining}/>
-          <div style={{ marginTop: "15px" }}><h5>DINING</h5></div>  
+          <div style={{ marginTop: "15px" }}><h5>PRIVATE DINING</h5></div>  
         </div>
         <div className="col-sm align-center" >
           <GiFoodTruck size={ 70 } color={ "Grey" } onClick={ clickDelivery }/>

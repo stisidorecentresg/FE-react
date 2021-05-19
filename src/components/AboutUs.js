@@ -6,7 +6,7 @@ import yfmg from '../assets/image/YFMG.jpeg'
 import { MdPhoneAndroid, MdMailOutline } from 'react-icons/md'
 
 const AboutUs = () => {
-  const pageTitle= ""
+  const pageTitle= "About Us"
   const nameSG = "St. Isidore Centre"
   const addressSG = "Block 120 Potong Pasir Ave 1, #01-822, Singapore 350120"
   const addressSGArray = addressSG.split(', ')
@@ -43,7 +43,7 @@ const AboutUs = () => {
       
 
       <div className="align-left">
-        <div><h3><b>About</b></h3></div>
+        <div><h3><b>{ pageTitle }</b></h3></div>
       </div>      
 
       <br/>
